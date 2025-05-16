@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hassan Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Hassan Store - Local DB & API</h1>
+    <form id="productForm">
+      <input type="number" id="productNumber" placeholder="Product Number" required />
+      <input type="text" id="type" placeholder="Type" required />
+      <input type="text" id="description" placeholder="Description" required />
+      <input type="number" id="price" placeholder="Price" required />
+      <button id="submitBtn" type="submit">Add Product</button>
+    </form>
+    
+    <input type="text" id="searchInput" placeholder="Search for a product..." />
+
+<h2>Local Products (From DB)</h2>
+    <table id="productTable"></table>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
